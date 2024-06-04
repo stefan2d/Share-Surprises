@@ -53,9 +53,9 @@ abstract class AbstractGiveSurprise {
 
                 System.out.println (bagType.takeOut ());
             }
-            TimeUnit.SECONDS.sleep (10); // number of seconds to sleep
+            TimeUnit.SECONDS.sleep (10); 
         } catch (InterruptedException e) {
-            // TODO Auto-generated catch block
+            
             e.printStackTrace ();
         }
     }
